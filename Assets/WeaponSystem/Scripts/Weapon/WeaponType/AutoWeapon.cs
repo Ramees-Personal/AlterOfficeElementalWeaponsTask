@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using WeaponSystem.Utils;
 
-namespace WeaponSystem.Weapon
+namespace WeaponSystem.Weapon.WeaponType
 {
-    public class FireWeapon : Weapon
+    public class AutoWeapon : Weapon
     {
 
         public override void Fire()

@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using WeaponSystem.Utils;
 
-namespace WeaponSystem.Weapon
+namespace WeaponSystem.Weapon.WeaponType
 {
-    public class ElectricWeapon : Weapon
+    public class HeatSyncWeapon : Weapon
     {
         [SerializeField] private AudioClip beamClip;
         private ElectricProjectile _activeProjectile;

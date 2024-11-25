@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using WeaponSystem.Utils;
 
-namespace WeaponSystem.Weapon
+namespace WeaponSystem.Weapon.WeaponType
 {
-    public class IceWeapon : Weapon
+    public class SingleShotWeapon : Weapon
     {
         [SerializeField] private AudioClip attackStartClip;
         private static readonly int FireTrigger = Animator.StringToHash("FireTrigger");
